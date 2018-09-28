@@ -1,0 +1,58 @@
+p{
+font-size:20pt;
+font-family:"Calibri";
+color:#AABB00 /*como não mais atributo não precisa do ;*/
+}
+
+/*exemplos de grupos de seletores*/
+#p1{
+font-size:20pt;
+font-family:"Bodoni";
+color:#AABBCC
+}
+
+#p2{
+font-size:30pt;
+font-family:"Times New Roman";
+color:#CECECE
+}
+
+#p3{
+font-size:40pt;
+font-family:"Arial Black";
+color:#FFFF00
+}
+
+#p4{
+font-szie:50pt;
+font-family:"Verdana";
+color:#ABABAB
+}
+
+/*exemplo de grupo de seletores usando o id #*/
+#p1,#p3{
+font-size:20pt;
+font-family:"bodoni";
+color:#AABBCC;
+border:5px inset #FFFF00/*border para inserir a borda, o primeiro valor era pra expessura da borda, inset=tipo de borda, e o terceiro valor era para a cor*/
+}
+
+#p2,#p4{
+font-size:50pt;
+font-family:Verdana;
+color:#AABB00;
+border:10px inset #AABB00
+}
+
+/*exemplo de seletores usando classe*/
+a.txt{
+	font-family:"Bodoni";
+	color:#1484CC;
+	font-weight:150/*comando para inserir a quantidade de negrito, se não quiser colocar negrito só usar o comando lighter*/
+}
+/*comando para background inseridos no body*/
+body{
+	background-color:#00FFBA;
+	background-image:url(simp.gif);
+	background-repeat:no-repeat
+}
