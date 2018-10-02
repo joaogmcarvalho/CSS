@@ -1,0 +1,41 @@
+body{
+	background-image:url("chute.gif"), url("simp.gif"), url("goku.gif");
+	background-repeat:no-repeat;
+	background-position: center top, right top, left top;
+	background-attachment:fixed;/*para a imagem ficar fixa na pagina se usa o fixed.*/
+	background-color:rgb(255,0,0,0.75);
+}
+
+p{
+	margin-bottom:2000px;
+}
+
+a{
+	text-decoration:none;/*desenho(quadrado) que envolve o texto, none e pra remover a borda*/
+	color:#FF8C00;/*cor do texto*/
+	font-family:"Bodoni";
+	font-size:40px;
+	font-weight:bold;
+	background-color:#cecece;
+}
+
+a:hover{
+	color:#FF7;
+}
+
+/*text-decoration é para decorar o texto*/
+h1{
+	text-decoration:overline;/*para inserir uma linha em cima do texto*/
+	text-transform:capitalize;/*para colocar a primeira letra de cada palavra em maiusculo*/
+}
+
+h2{
+	text-decoration:line-through;/*para deixar a palavra riscada*/
+	text-transform:lowercase;/*para colocar as letras em minusculo*/
+}
+
+h3{
+	text-decoration:underline;/*para colocar a palavra sublinhada*/
+	text-transform:uppercase;/*para todas as letras ficarem maiusculas*/
+}
+
