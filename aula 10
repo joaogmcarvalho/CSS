@@ -1,0 +1,77 @@
+h1{
+	word-spacing:10px;/*valor negativo ele junta as palavras e valor positivo ele separa*/
+	letter-spacing:4px;/*usado para dar espaço entre as letras / se colocar um valor negativo ele junta e positivo ele separa*/
+	text-indent:50px;/*usado para especificar um espaço de paragrafo*/
+	text-decoration:overline;/*para inserir uma linha em cima do texto*/
+	text-transform:capitalize;/*para colocar a primeira letra de cada palavra em maiusculo*/
+	border:6px dotted #CC6699;
+	border-radius:45px;
+	background-clip:border-box;/*a cor fica dentro da borda*/
+	background-color:#007BA7
+}
+
+h2{
+	text-decoration:line-through;/*para deixar a palavra riscada*/
+	text-transform:lowercase;/*para colocar as letras em minusculo*/
+	background-clip:padding-box;/*a cor respeita a borda e so fica dentro dela*/
+	border:6px dotted #CC6699;
+	border-radius:45px;
+	background-color:#731DB1
+}
+
+h3{
+	text-decoration:underline;/*para colocar a palavra sublinhada*/
+	text-transform:uppercase;/*para todas as letras ficarem maiusculas*/
+}
+
+#a{
+	border-left:6px solid #FF0000;/*para inserir a borda na esquerda*/
+	background-color:#00FFFF
+}
+
+#b{
+	border-bottom:6px dotted #9370DB;/*para inserir a borda em baixo e o dotted é um estilo de borda em bolinhas*/
+}
+
+#c{
+	border-right:6px dashed #00FA9A;/*para inserir a borda do lado direito*/
+}
+
+#d{
+	border-top:6px double #53FFDA;/*para inserir borda na parte superior, e o double é um estilo de borda com duas linhas*/
+	background-color:#6D93FF
+}
+
+#e{
+	border-bottom:8px ridge #9370DB;
+	border-left:8px groove #53FFDA;
+	border-right:8px outset #00FA9A;
+	border-top:8px inset #CC6699;
+	background-color:#FFED27;
+	/*dotted - borda pontilhada;
+	  solid - borda com linha solida;
+	  dashed - bordas tracejadas;
+	  double - bordas com linhas duplas;
+	  groove - borda com estilo 3D;
+	  ridge - bordas com esilo 3D com as cores ao contrario;
+	  inset - bordas com esilo 3D de baixo relevo;
+	  outset - efeito 3D de alto relevo;
+	  none - sem borda*/
+}
+
+#f{
+	border-bottom:8px ridge #9370DB;
+	border-left:8px groove #53FFDA;
+	border-right:8px outset #00FA9A;
+	border-top:8px inset #CC6699;
+	background-color:#FFED27;
+	border-radius:45px;/*usado para arredondar as bordas*/
+}
+
+
+
+body{
+	background-repeat:no-repeat;
+	background-position: center top, right top, left top;
+	background-attachment:fixed;/*para a imagem ficar fixa na pagina se usa o fixed.*/
+}
