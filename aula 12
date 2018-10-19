@@ -1,0 +1,29 @@
+form{
+	width:500px;
+	margin:auto;
+}
+
+legend{
+	color:#1979FF;
+	font-size:11pt;
+	font-family:Castellar Regular;
+	font-weight:bold;
+}
+
+fieldset{
+	border-color:#8A2BE2;
+	margin:20px;
+}
+
+#sexo{
+	width:300;
+	border-color:#FFFF00;
+}
+
+#end{
+	background:url("memes.jpg") no-repeat;
+}
+
+#ident{
+	background:url("memecopa.jpg") no-repeat;
+}
