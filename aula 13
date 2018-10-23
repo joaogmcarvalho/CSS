@@ -1,0 +1,59 @@
+#botao1{
+	background-color:#00FFCE;
+	color:#532BFF;
+	font-family:Georgia;
+	font-size:14pt;
+	border:none;
+	border-radius:25px;
+	padding:15px 30px;
+	cursor:pointer;
+	box-shadow:0 8px 16px;
+	text-shadow:0 8px 6px;
+}
+
+#botao1:hover{
+	background-color:#00FFFF;
+	color:#7B68EE;
+}
+
+#botao2{
+	background-color:#FFF;
+	color:#000;
+	font-family:Arial;
+	font-size:14pt;
+	border:2px dotted #4CAF50;
+	padding:15px 30px;
+	cursor:no-drop;
+	text-decoration:none;
+}
+
+#botao2:hover{
+	background-color:#3988FF;
+	color:#FF4500;
+}
+
+#botao3{
+	background-color:#0B610B;
+	color:#FFF;
+	font-family:Comic Sans;
+	font-size:14pt;
+	border:2px;
+	padding: 15px 30px;
+	cursor:progress;
+}
+
+.disable{
+	opacity:0.7;
+	cursor:not-allowed;
+}
+
+.botao4{
+	background-color:#FF00FF;
+	color:white;
+	font-family:Papyrus;
+	font-size:14pt;
+	border:none;
+	padding:15px 30px;
+	cursor:help;
+	float:left;
+}
