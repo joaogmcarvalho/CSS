@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Aula 15 - Container(Div e span)</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="revisaoAV2.css">
+</head>
+<body>
+<div id="container">
+<div id="header">Revisao AV2</div>
+<div id="left">
+<p><button id="botao1">Enviar</button></p>
+<p><button id="botao2">Salvar</button></p>
+<p><button id="botao">Normal</button>
+</div>
+<div id="content">
+<form method="post">
+<fieldset><legend>IDENTIFICAÇÃO DO USUARIO</legend>
+<label for="a"><p>Nome:<input type="text" id="a" name="nome" placeholder="Nome Completo" /></p>
+<label for="b"><p>Senha:<input type="password" id="b" name="senha" placeholder="8 Digitos" /></p>
+<label for="c"><p>Email:<input type="text" id="c" name="mail" placeholder="e_mail" /></p>
+</fieldset>
+</div>
+<div id="footer">@2018, unilasalle - Todos os direitos reservados
+</div>
+</div>
+</body>
+</html>
