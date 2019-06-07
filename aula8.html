@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aula 7</title>
+<meta charset="UTF-8">
+<script src="aula8.js"></script>
+</head>
+<body>
+
+
+<h1 onclick="changeText(this)">Click no texto!</h1>
+
+<button onclick="displayDate()">Data</button>
+<p id="demo" />
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#FF0022; width:120px; height:20px; 
+padding:40px;">Passe o cursor aqui"</div><br>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)" 
+style="background-color:#6600CC; width:120px; height:20px; 
+padding:40px;">Passe o cursor aqui"</div>
+
+<hr/>
+<div>
+<form method="Post" action="aula8.php">
+<fieldset><legend>Cadastro</legend>
+<input type="button" value="Digitar nome" onclick="nome=prompt('Seu nome','')" />
+<input type="button" value="Digitar email" onclick="email=prompt('Seu email','')" />
+<input type="button" value="Cadastrar" onclick="escrever(this.form.Area)" />
+<p><textarea rows=10 cols=40 name="Area"></textarea></p>
+</form>
+</div>
+
+<hr/>
+<pre>
+<a href onmouseover="mudaCor('blue')">Azul</a>
+<a href onmouseover="mudaCor('green')">Verde</a>
+<a href onmouseover="mudaCor('lightblue')">Azul Claro</a>
+<a href onmouseover="mudaCor('red')">Vermelho</a>
+<a href onmouseover="mudaCor('yellow')">Amarelo</a>
+<a href onmouseover="mudaCor('pink')">Pink</a>
+<a href onmouseover="mudaCor('violet')">Violeta</a>
+<a href onmouseover="mudaCor('black')">Black</a>
+<a href onmouseover="mudaCor('purple')">Purpura</a>
+<a href onmouseover="mudaCor('Silver')">Cinza</a>
+<a href onmouseover="mudaCor('Orange')">Laranja</a>
+</pre>
+
+<input type="radio" name="grupo" onclick="document.bgColor='blue'">Azul</input>
+<input type="radio" name="grupo" onclick="document.bgColor='azure'">Azul Claro</input>
+<input type="radio" name="grupo" onclick="document.bgColor='green'">Verde</input>
+<input type="radio" name="grupo" onclick="document.bgColor='red'">Vermelho</input>
+*/
+
+
+</body>
+</html>
